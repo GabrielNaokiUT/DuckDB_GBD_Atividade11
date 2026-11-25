@@ -1,0 +1,13 @@
+# Banco gerado pelo pipeline (pode ser recriado rodando os scripts)
+*.duckdb
+*.duckdb.wal
+*.wal
+
+# Saídas geradas
+dados/gold/
+
+# Sistema / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
