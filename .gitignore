@@ -3,8 +3,9 @@
 *.duckdb.wal
 *.wal
 
-# Saídas geradas
-dados/gold/
+# Saídas geradas (a pasta fica no repo por causa do .gitkeep)
+dados/gold/*
+!dados/gold/.gitkeep
 
 # Sistema / IDE
 .DS_Store
