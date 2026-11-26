@@ -89,6 +89,9 @@ DuckDB_GBD_Atividade11/
 │   │   ├── produtos.json
 │   │   └── vendas.csv
 │   └── gold/                      # Arquivos Parquet gerados pelo pipeline
+├── docs/
+│   ├── DuckDB_Tema21_Slides.pdf              # Slides da apresentação
+│   └── DuckDB_Tema21_Relatorio_Tecnico.pdf   # Relatório técnico (conteúdo completo)
 ├── sql/
 │   ├── 01_bronze.sql              # Ingestão dos dados brutos
 │   ├── 02_silver.sql              # Limpeza e padronização
@@ -100,6 +103,8 @@ DuckDB_GBD_Atividade11/
 ├── run_pipeline.sh                # Orquestração (Linux / macOS)
 └── README.md
 ```
+
+Os slides e o relatório técnico do seminário estão na pasta [`docs/`](docs/).
 
 ---
 
